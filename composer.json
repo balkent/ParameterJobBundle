@@ -1,0 +1,25 @@
+{
+    "name": "balkent/parameter-job-bundle",
+    "description": "Manage jobs parameter in your project",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "QuentinBALCEREK",
+            "email": "quentin.balcerek@gmail.com"
+        }
+    ],
+    "require": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Balkent\\ParameterJobBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Balkent\\ParameterJobBundle\\Tests\\": "tests/"
+        }
+    }
+}
